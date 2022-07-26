@@ -1,0 +1,1 @@
+<h1>prueba de vista articulos</h1>
