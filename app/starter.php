@@ -1,7 +1,11 @@
 <?php
-    //error_reporting(0);
+
     //Cargamos todas nuestras librerias
-    require_once('libs/DataBase.php');
-    require_once('libs/Controller.php');
-    require_once('libs/Core.php');
+    require_once('config/config.php');
+
+    //Autoload de librerias 
+    spl_autoload_register(function($className){
+        require_once 'libs/' . $className . '.php';
+    });
+
 ?>

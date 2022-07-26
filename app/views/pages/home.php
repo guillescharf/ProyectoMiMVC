@@ -1,3 +1,5 @@
+<?php require(APP_PATH . '/views/inc/header.php'); ?>
 
-<h1>cargado el index</h1>
-<p><?php echo $data['titulo'];  ?></p>
+<h1><?php echo $data['titulo'];  ?></h1>
+
+<?php require(APP_PATH . '/views/inc/footer.php'); ?>
